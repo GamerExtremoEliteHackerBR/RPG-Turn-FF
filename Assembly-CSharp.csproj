@@ -1,0 +1,2000 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{F5558675-678F-A459-2382-926099A5B2FB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWarn>0169;USG0001</NoWarn>
+    <DefineConstants>UNITY_6000_3_8;UNITY_6000_3;UNITY_6000;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;UNITY_6000_1_OR_NEWER;UNITY_6000_2_OR_NEWER;UNITY_6000_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_AUDIO_SCRIPTABLE_PIPELINE;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_UNITY_CONSENT;ENABLE_UNITY_CLOUD_IDENTIFIERS;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_MARSHALLING_TESTS;ENABLE_VIDEO;ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_ACCESSIBILITY_SCREEN_READER;TEXTCORE_1_0_OR_NEWER;EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_AMD;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLOUD_SERVICES_ENGINE_DIAGNOSTICS;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_USES_EXPLICIT_MEMORY_MANAGER_INITIALIZER;PLATFORM_SUPPORTS_WAIT_FOR_PRESENTATION;PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER;TEXTCORE_FONT_ENGINE_1_6_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.26</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorStyle>Legacy</UnityProjectGeneratorStyle>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>6000.3.8f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\Regions\RegionData.cs" />
+    <Compile Include="Assets\Scripts\BaseClasses\BaseHero.cs" />
+    <Compile Include="Assets\Scripts\Attacks\AttackButton.cs" />
+    <Compile Include="Assets\Scripts\GUI\HeroPanelStats.cs" />
+    <Compile Include="Assets\Scripts\HeroMovement.cs" />
+    <Compile Include="Assets\Scripts\Attacks\MagicAttacks\Fire1Spell.cs" />
+    <Compile Include="Assets\Scripts\GUI\EnemySelectButton.cs" />
+    <Compile Include="Assets\Scripts\Attacks\MeLeeAttacks\HammerSwing.cs" />
+    <Compile Include="Assets\Scripts\CollisionHandler.cs" />
+    <Compile Include="Assets\GamerExtremo\ThanksManager.cs" />
+    <Compile Include="Assets\Scripts\StateMachines\HeroStateMachine.cs" />
+    <Compile Include="Assets\Scripts\StateMachines\EnemyStateMachine.cs" />
+    <Compile Include="Assets\Scripts\BaseClasses\BaseClass.cs" />
+    <Compile Include="Assets\Scripts\BaseClasses\BaseEnemy.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Attacks\BaseAttack.cs" />
+    <Compile Include="Assets\Scripts\Attacks\MagicAttacks\Poinson1Spell.cs" />
+    <Compile Include="Assets\Scripts\StateMachines\BattleStateMachine.cs" />
+    <Compile Include="Assets\Scripts\Attacks\MeLeeAttacks\Slash.cs" />
+    <Compile Include="Assets\Scripts\HandleTurn.cs" />
+    <Compile Include="Assets\GamerExtremo\ExitGame.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\9T2.xml" />
+    <None Include="Assets\GamerExtremo\res\DZ.xml" />
+    <None Include="Assets\GamerExtremo\res\29.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\Cg.xml" />
+    <None Include="Assets\GamerExtremo\res\GK.xml" />
+    <None Include="Assets\GamerExtremo\res\rv.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\aM.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\lN.xml" />
+    <None Include="Assets\GamerExtremo\res\bb.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color\abc_btn_colored_text_material.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\-8.xml" />
+    <None Include="Assets\GamerExtremo\res\Hd.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\ZN.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\Cg.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\Nu.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\rW.xml" />
+    <None Include="Assets\GamerExtremo\res\Bz.xml" />
+    <None Include="Assets\GamerExtremo\res\color\abc_tint_btn_checkable.xml" />
+    <None Include="Assets\GamerExtremo\res\yV.xml" />
+    <None Include="Assets\GamerExtremo\res\color\abc_tint_seek_thumb.xml" />
+    <None Include="Assets\GamerExtremo\Special Thasks Ex.txt" />
+    <None Include="Assets\GamerExtremo\res\u01.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color-v23\abc_btn_colored_borderless_text_material.xml" />
+    <None Include="Assets\GamerExtremo\res\Xx.xml" />
+    <None Include="Assets\GamerExtremo\res\9V.xml" />
+    <None Include="Assets\GamerExtremo\res\aK.xml" />
+    <None Include="Assets\GamerExtremo\res\9T2.xml" />
+    <None Include="Assets\GamerExtremo\res\Nu.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\aG.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\47.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\y-.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\A1.xml" />
+    <None Include="Assets\GamerExtremo\res\G2.xml" />
+    <None Include="Assets\GamerExtremo\res\cV.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color\abc_tint_default.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\vG.xml" />
+    <None Include="Assets\GamerExtremo\res\_o.xml" />
+    <None Include="Assets\GamerExtremo\res\VT.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\aM.xml" />
+    <None Include="Assets\GamerExtremo\res\c5.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\XY.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\qx.xml" />
+    <None Include="Assets\GamerExtremo\res\xT.xml" />
+    <None Include="Assets\GamerExtremo\res\F8.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\cV.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\_G.xml" />
+    <None Include="Assets\GamerExtremo\res\Rp.xml" />
+    <None Include="Assets\GamerExtremo\res\hP1.xml" />
+    <None Include="Assets\GamerExtremo\res\GF.xml" />
+    <None Include="Assets\GamerExtremo\res\color\abc_primary_text_material_dark.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\Bz.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\y4.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\Rp.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color\abc_tint_spinner.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\8t.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\Gt.xml" />
+    <None Include="Assets\GamerExtremo\res\Ws.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\GD.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\VM.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\rW.xml" />
+    <None Include="Assets\GamerExtremo\res\color-v21\abc_btn_colored_borderless_text_material.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\EQ.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\qA.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\aG.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\5T.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\D-.xml" />
+    <None Include="Assets\GamerExtremo\res\Tl.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\pI.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\PF.xml" />
+    <None Include="Assets\GamerExtremo\res\pU.xml" />
+    <None Include="Assets\GamerExtremo\res\_H.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color\switch_thumb_material_light.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\yV.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color\abc_hint_foreground_material_light.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\M7.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\Rp.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\c5.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\hP.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\S8.xml" />
+    <None Include="Assets\GamerExtremo\res\zq.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\L_.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\sn.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\9z.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\GF.xml" />
+    <None Include="Assets\GamerExtremo\res\8t.xml" />
+    <None Include="Assets\GamerExtremo\res\rx.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color\common_google_signin_btn_tint.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\p7.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\c6.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\j3.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\D-.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\9T1.xml" />
+    <None Include="Assets\GamerExtremo\res\U0.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\UX.xml" />
+    <None Include="Assets\GamerExtremo\res\color\abc_tint_switch_track.xml" />
+    <None Include="Assets\GamerExtremo\res\XK.xml" />
+    <None Include="Assets\GamerExtremo\res\Lf.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\PF.xml" />
+    <None Include="Assets\GamerExtremo\res\YW.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\aK.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\zp.xml" />
+    <None Include="Assets\GamerExtremo\res\color\abc_hint_foreground_material_dark.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\nP.xml" />
+    <None Include="Assets\GamerExtremo\res\nP.xml" />
+    <None Include="Assets\GamerExtremo\res\color-v23\abc_tint_btn_checkable.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\K-.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\9T1.xml" />
+    <None Include="Assets\GamerExtremo\res\ZN.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\GK.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\U0.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\Pb.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\eA.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\A1.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\F8.xml" />
+    <None Include="Assets\GamerExtremo\res\qF.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\Sc.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color\abc_tint_seek_thumb.xml" />
+    <None Include="Assets\GamerExtremo\res\Cg.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\3A.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\qA.xml" />
+    <None Include="Assets\GamerExtremo\res\NM.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\In.xml" />
+    <None Include="Assets\GamerExtremo\res\U8.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\q6.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color\abc_primary_text_material_dark.xml" />
+    <None Include="Assets\GamerExtremo\res\In.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\U8.xml" />
+    <None Include="Assets\GamerExtremo\res\GR.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\rx.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\RH.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\h4.xml" />
+    <None Include="Assets\GamerExtremo\res\UX.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\nP.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\vJ.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\nT.xml" />
+    <None Include="Assets\GamerExtremo\res\color\abc_tint_spinner.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\_y.xml" />
+    <None Include="Assets\GamerExtremo\res\aG.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\df.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\_H.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\9z.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\U8.xml" />
+    <None Include="Assets\GamerExtremo\res\h4.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\XW.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\Tn.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\bb.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\Zg.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\aW.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\T5.xml" />
+    <None Include="Assets\GamerExtremo\res\wr.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\Sa.xml" />
+    <None Include="Assets\GamerExtremo\res\color\abc_hint_foreground_material_light.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\xj.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\Ac.xml" />
+    <None Include="Assets\GamerExtremo\res\color\abc_primary_text_disable_only_material_light.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\vq.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\a0.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\4_.xml" />
+    <None Include="Assets\GamerExtremo\res\df.xml" />
+    <None Include="Assets\GamerExtremo\res\2f.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\uJ.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\cL.xml" />
+    <None Include="Assets\GamerExtremo\res\NF.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\nz.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\0M.xml" />
+    <None Include="Assets\GamerExtremo\res\kj.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\7H.xml" />
+    <None Include="Assets\GamerExtremo\res\color\abc_background_cache_hint_selector_material_light.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\ZL.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\pU.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\T5.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\vZ.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color\common_google_signin_btn_text_dark.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\cr.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\VT.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\Lf.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\wr.xml" />
+    <None Include="Assets\GamerExtremo\res\4B.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\dO.xml" />
+    <None Include="Assets\GamerExtremo\res\9z.xml" />
+    <None Include="Assets\GamerExtremo\res\9s.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\y6.xml" />
+    <None Include="Assets\GamerExtremo\res\color\abc_tint_edittext.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\-8.xml" />
+    <None Include="Assets\GamerExtremo\res\sn.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\kn.xml" />
+    <None Include="Assets\GamerExtremo\res\vZ.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\GD.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\Ke.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\bb.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\Tl.xml" />
+    <None Include="Assets\GamerExtremo\res\4z.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\46.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\yV.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color\switch_thumb_material_dark.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\xT.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\qF.xml" />
+    <None Include="Assets\GamerExtremo\res\vJ.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\BJ.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\Rt.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\qx.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\Hd.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color-v23\abc_tint_btn_checkable.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\_H.xml" />
+    <None Include="Assets\GamerExtremo\res\lN.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\1k.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\Sb.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\xT.xml" />
+    <None Include="Assets\GamerExtremo\res\color\abc_secondary_text_material_dark.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\Qd.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\k_.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\D5.xml" />
+    <None Include="Assets\GamerExtremo\res\Zg.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\vJ.xml" />
+    <None Include="Assets\GamerExtremo\res\rY.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\G2.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\VT.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\0K.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\NF.xml" />
+    <None Include="Assets\GamerExtremo\res\EZ.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\Zy.xml" />
+    <None Include="Assets\GamerExtremo\res\V7.xml" />
+    <None Include="Assets\GamerExtremo\res\color\abc_search_url_text.xml" />
+    <None Include="Assets\GamerExtremo\res\DV.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\9V.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\ZL.xml" />
+    <None Include="Assets\GamerExtremo\res\Bl.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\Ke.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color-v21\abc_btn_colored_borderless_text_material.xml" />
+    <None Include="Assets\GamerExtremo\res\t8.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\DZ.xml" />
+    <None Include="Assets\GamerExtremo\res\K5.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\Bl.xml" />
+    <None Include="Assets\GamerExtremo\res\kn.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\rx.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\9T.xml" />
+    <None Include="Assets\GamerExtremo\res\M7.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\Qt.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\Xx.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\7G.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\4_1.xml" />
+    <None Include="Assets\GamerExtremo\res\Eg.xml" />
+    <None Include="Assets\GamerExtremo\res\aM.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color\abc_secondary_text_material_light.xml" />
+    <None Include="Assets\GamerExtremo\res\oP.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\uJ.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\XY.xml" />
+    <None Include="Assets\GamerExtremo\res\q6.xml" />
+    <None Include="Assets\GamerExtremo\res\QZ.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\Ol.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\EZ.xml" />
+    <None Include="Assets\GamerExtremo\res\3A.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\ci.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\Tl.xml" />
+    <None Include="Assets\GamerExtremo\res\color-v23\abc_tint_seek_thumb.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\4z.xml" />
+    <None Include="Assets\GamerExtremo\res\k8.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\cL.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\GC.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color\abc_secondary_text_material_dark.xml" />
+    <None Include="Assets\GamerExtremo\res\0M.xml" />
+    <None Include="Assets\GamerExtremo\res\qA.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color\abc_primary_text_disable_only_material_dark.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color\abc_tint_edittext.xml" />
+    <None Include="Assets\GamerExtremo\res\4u.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\M7.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\kn.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\hq.xml" />
+    <None Include="Assets\GamerExtremo\res\TK.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\4z.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color-v23\abc_tint_spinner.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\iQ.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\G2.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\Sa.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\VN.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\7N.xml" />
+    <None Include="Assets\GamerExtremo\res\pI.xml" />
+    <None Include="Assets\GamerExtremo\res\ci.xml" />
+    <None Include="Assets\GamerExtremo\res\7G.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\xN.xml" />
+    <None Include="Assets\GamerExtremo\res\1k.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\9P.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\A4.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\27.xml" />
+    <None Include="Assets\GamerExtremo\res\V1.xml" />
+    <None Include="Assets\GamerExtremo\res\vq.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\Qd.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\k8.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color-v23\abc_tint_edittext.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\27.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\qF.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\Zg.xml" />
+    <None Include="Assets\GamerExtremo\res\Ac.xml" />
+    <None Include="Assets\GamerExtremo\res\color\abc_primary_text_disable_only_material_dark.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\Gt.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\FT.xml" />
+    <None Include="Assets\GamerExtremo\res\y6.xml" />
+    <None Include="Assets\GamerExtremo\res\iQ.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\7N.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\QZ.xml" />
+    <None Include="Assets\GamerExtremo\res\uJ.xml" />
+    <None Include="Assets\GamerExtremo\res\80.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\GR.xml" />
+    <None Include="Assets\GamerExtremo\res\5z.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\y6.xml" />
+    <None Include="Assets\GamerExtremo\res\Sb.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\vG.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\3A.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\V7.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\VM.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\2j.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\Lf.xml" />
+    <None Include="Assets\GamerExtremo\res\nT.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\_o.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color\abc_primary_text_material_light.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\9s.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color-v23\abc_tint_switch_track.xml" />
+    <None Include="Assets\GamerExtremo\res\color\common_google_signin_btn_tint.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\XK.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\Mp.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\cm.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\Pb.xml" />
+    <None Include="Assets\GamerExtremo\res\xj.xml" />
+    <None Include="Assets\GamerExtremo\res\4_1.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\hP1.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color\abc_tint_btn_checkable.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\lN.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color-v23\abc_color_highlight_material.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\4u.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\t8.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\k8.xml" />
+    <None Include="Assets\GamerExtremo\res\47.xml" />
+    <None Include="Assets\GamerExtremo\res\xN.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\BE.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\pI.xml" />
+    <None Include="Assets\GamerExtremo\res\_G.xml" />
+    <None Include="Assets\GamerExtremo\res\XW.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\29.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\V7.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\29.xml" />
+    <None Include="Assets\GamerExtremo\res\0K.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\oP.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color\abc_background_cache_hint_selector_material_dark.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\kj.xml" />
+    <None Include="Assets\GamerExtremo\res\ZL.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\Lr.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\2f.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\S8.xml" />
+    <None Include="Assets\GamerExtremo\res\hP.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\TK.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\DV.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\Ws.xml" />
+    <None Include="Assets\GamerExtremo\res\T5.xml" />
+    <None Include="Assets\GamerExtremo\res\vG.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\YW.xml" />
+    <None Include="Assets\GamerExtremo\res\color-v23\abc_tint_edittext.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\Eg.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\wr.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\NM.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\Eg.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\DV.xml" />
+    <None Include="Assets\GamerExtremo\res\D5.xml" />
+    <None Include="Assets\GamerExtremo\res\Ke.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color\abc_background_cache_hint_selector_material_light.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\QZ.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\BJ1.xml" />
+    <None Include="Assets\GamerExtremo\res\color\switch_thumb_material_dark.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\VN.xml" />
+    <None Include="Assets\GamerExtremo\res\K-.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\hq.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\u01.xml" />
+    <None Include="Assets\GamerExtremo\res\7N.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\8t.xml" />
+    <None Include="Assets\GamerExtremo\res\9m.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\Fu.xml" />
+    <None Include="Assets\GamerExtremo\res\color\abc_secondary_text_material_light.xml" />
+    <None Include="Assets\GamerExtremo\res\BJ.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\GF.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\sn.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\aW.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\Bz.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\TK.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\2f.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\Lr.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\Ol.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color-v23\abc_btn_colored_text_material.xml" />
+    <None Include="Assets\GamerExtremo\res\XY.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color-v23\abc_tint_default.xml" />
+    <None Include="Assets\GamerExtremo\res\-8.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\bt.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\a0.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\xN.xml" />
+    <None Include="Assets\GamerExtremo\res\j3.xml" />
+    <None Include="Assets\GamerExtremo\res\color-v23\abc_btn_colored_text_material.xml" />
+    <None Include="Assets\GamerExtremo\res\GC.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\rz.xml" />
+    <None Include="Assets\GamerExtremo\res\y4.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\Sc.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\RH.xml" />
+    <None Include="Assets\GamerExtremo\res\color-v23\abc_tint_default.xml" />
+    <None Include="Assets\GamerExtremo\res\bt.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color\common_google_signin_btn_text_light.xml" />
+    <None Include="Assets\GamerExtremo\res\VM.xml" />
+    <None Include="Assets\GamerExtremo\res\Ol.xml" />
+    <None Include="Assets\GamerExtremo\res\A1.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\Fu.xml" />
+    <None Include="Assets\GamerExtremo\res\6Q.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\7G.xml" />
+    <None Include="Assets\GamerExtremo\res\c6.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\Qt.xml" />
+    <None Include="Assets\GamerExtremo\res\color\abc_btn_colored_text_material.xml" />
+    <None Include="Assets\GamerExtremo\res\color\common_google_signin_btn_text_dark.xml" />
+    <None Include="Assets\GamerExtremo\res\27.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\Ac.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\Nu.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\df.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\9m.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\iQ.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\xj.xml" />
+    <None Include="Assets\GamerExtremo\res\A4.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\4B.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\RD.xml" />
+    <None Include="Assets\GamerExtremo\res\Mp.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\cm.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\dO.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\zq.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\0w.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\U0.xml" />
+    <None Include="Assets\GamerExtremo\res\9P.xml" />
+    <None Include="Assets\GamerExtremo\res\nz.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\BE.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\rv.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\0K.xml" />
+    <None Include="Assets\GamerExtremo\res\Tn.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\2j.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\In.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\c6.xml" />
+    <None Include="Assets\GamerExtremo\res\4_.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\RD.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\XK.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\9T2.xml" />
+    <None Include="Assets\GamerExtremo\res\7H.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\kj.xml" />
+    <None Include="Assets\GamerExtremo\res\y-.xml" />
+    <None Include="Assets\GamerExtremo\res\Fu.xml" />
+    <None Include="Assets\GamerExtremo\res\RD.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\BJ1.xml" />
+    <None Include="Assets\GamerExtremo\res\eA.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\vZ.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\k_.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\ci.xml" />
+    <None Include="Assets\GamerExtremo\res\BJ1.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\vq.xml" />
+    <None Include="Assets\GamerExtremo\res\color\common_google_signin_btn_text_light.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\K5.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\aK.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\9s.xml" />
+    <None Include="Assets\GamerExtremo\res\Pb.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\BW.xml" />
+    <None Include="Assets\GamerExtremo\res\rz.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\GC.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\eA.xml" />
+    <None Include="Assets\GamerExtremo\res\Qt.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\7N1.xml" />
+    <None Include="Assets\GamerExtremo\res\color\switch_thumb_material_light.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\A4.xml" />
+    <None Include="Assets\GamerExtremo\res\FT.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\MO.xml" />
+    <None Include="Assets\GamerExtremo\res\cL.xml" />
+    <None Include="Assets\GamerExtremo\res\7N1.xml" />
+    <None Include="Assets\GamerExtremo\res\Zy.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\46.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\EZ.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\zp.xml" />
+    <None Include="Assets\GamerExtremo\res\color-v23\abc_tint_spinner.xml" />
+    <None Include="Assets\GamerExtremo\res\BE.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\4_1.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\NF.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\Bd.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\rz.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\hP1.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\F8.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\rY.xml" />
+    <None Include="Assets\GamerExtremo\res\color\abc_primary_text_material_light.xml" />
+    <None Include="Assets\GamerExtremo\res\rW.xml" />
+    <None Include="Assets\GamerExtremo\res\BW.xml" />
+    <None Include="Assets\GamerExtremo\res\5T.xml" />
+    <None Include="Assets\GamerExtremo\res\Jl.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\Zy.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\pU.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color\abc_primary_text_disable_only_material_light.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\NM.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\Jl.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\V1.xml" />
+    <None Include="Assets\GamerExtremo\res\46.xml" />
+    <None Include="Assets\GamerExtremo\res\color-v23\abc_tint_switch_track.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\_y.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\Ws.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\j3.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\nT.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\p7.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\80.xml" />
+    <None Include="Assets\GamerExtremo\res\Bd.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\K-.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\Tn.xml" />
+    <None Include="Assets\GamerExtremo\res\Lr.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\MO.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\V1.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\0M.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\GK.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\oP.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\9m.xml" />
+    <None Include="Assets\GamerExtremo\res\hq.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\ha.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\h4.xml" />
+    <None Include="Assets\GamerExtremo\res\9T.xml" />
+    <None Include="Assets\GamerExtremo\res\MO.xml" />
+    <None Include="Assets\GamerExtremo\res\9T1.xml" />
+    <None Include="Assets\GamerExtremo\res\Rt.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\7H.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\y4.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\_G.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\YW.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\9T.xml" />
+    <None Include="Assets\GamerExtremo\res\color\abc_tint_default.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color\abc_hint_foreground_material_dark.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\Mp.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\cr.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\FT.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\rv.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\BW.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\rY.xml" />
+    <None Include="Assets\GamerExtremo\res\Qd.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\XW.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\6Q.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\5z.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\6Q.xml" />
+    <None Include="Assets\GamerExtremo\res\Sa.xml" />
+    <None Include="Assets\GamerExtremo\res\ha.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\c5.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\5T.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\80.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\Rt.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\Hd.xml" />
+    <None Include="Assets\GamerExtremo\res\color-v23\abc_color_highlight_material.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\7N1.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\GR.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\cV.xml" />
+    <None Include="Assets\GamerExtremo\res\Gt.xml" />
+    <None Include="Assets\GamerExtremo\res\PF.xml" />
+    <None Include="Assets\GamerExtremo\res\GD.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\K5.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\5z.xml" />
+    <None Include="Assets\GamerExtremo\res\a0.xml" />
+    <None Include="Assets\GamerExtremo\res\cm.xml" />
+    <None Include="Assets\GamerExtremo\res\L_.xml" />
+    <None Include="Assets\GamerExtremo\res\k_.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\4_.xml" />
+    <None Include="Assets\GamerExtremo\res\_y.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\4B.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\EQ.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color\abc_search_url_text.xml" />
+    <None Include="Assets\GamerExtremo\res\zp.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\hP.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\D5.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\9P.xml" />
+    <None Include="Assets\GamerExtremo\res\aW.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\t8.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\Bl.xml" />
+    <None Include="Assets\GamerExtremo\res\color\abc_background_cache_hint_selector_material_dark.xml" />
+    <None Include="Assets\GamerExtremo\res\cr.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\9V.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\0w.xml" />
+    <None Include="Assets\GamerExtremo\res\0w.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\UX.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\Jl.xml" />
+    <None Include="Assets\GamerExtremo\res\qx.xml" />
+    <None Include="Assets\GamerExtremo\res\p7.xml" />
+    <None Include="Assets\GamerExtremo\res\Sc.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\Xx.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color\abc_tint_switch_track.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\bt.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\color-v23\abc_tint_seek_thumb.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\Sb.xml" />
+    <None Include="Assets\GamerExtremo\res\RH.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\y-.xml" />
+    <None Include="Assets\GamerExtremo\res\S8.xml" />
+    <None Include="Assets\GamerExtremo\res\color-v23\abc_btn_colored_borderless_text_material.xml" />
+    <None Include="Assets\GamerExtremo\res\VN.xml" />
+    <None Include="Assets\GamerExtremo\res\2j.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\1k.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\nz.xml" />
+    <None Include="Assets\GamerExtremo\res\D-.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\DZ.xml" />
+    <None Include="Assets\GamerExtremo\res\dO.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\BJ.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\zq.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\Bd.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\ZN.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\_o.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\L_.xml" />
+    <None Include="Assets\GamerExtremo\res\EQ.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\47.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\ha.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\✅ New Folder\XML\u01.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\4u.xml" />
+    <None Include="Assets\GamerExtremo\RIP\Electric Puzzles_1.5\res\q6.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AdaptivePerformanceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.AdaptivePerformanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.ContentLoadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GraphicsStateCollectionSerializerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.GraphicsStateCollectionSerializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HierarchyCoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.HierarchyCoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IdentifiersModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.IdentifiersModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputForUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputForUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InsightsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.InsightsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.MarshallingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.MarshallingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.MultiplayerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.MultiplayerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsBackendPhysXModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsBackendPhysXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.RenderAs2DModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.RenderAs2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ShaderRuntimeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.ShaderRuntimeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ShaderVariantAnalyticsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.ShaderVariantAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConsentModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConsentModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VectorGraphicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.VectorGraphicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.AccessibilityModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.AdaptivePerformanceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.AdaptivePerformanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.AssetComplianceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.AssetComplianceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.BuildProfileModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.BuildProfileModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.ClothModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.ClothModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.CoreBusinessMetricsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreBusinessMetricsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DeviceSimulatorModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DiagnosticsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.EditorToolbarModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.EditorToolbarModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.EmbreeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.EmbreeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GraphicsStateCollectionSerializerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphicsStateCollectionSerializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GridAndSnapModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.GridAndSnapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GridModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.HierarchyModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.HierarchyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.InAppPurchasingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.InAppPurchasingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.LevelPlayModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.LevelPlayModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.MediaModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.MediaModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.MultiplayerModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.MultiplayerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Physics2DModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PhysicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PlayModeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.PlayModeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PresetsUIModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.PresetsUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PropertiesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.QuickSearchModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SafeModeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.SafeModeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneViewModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.ShaderBuildSettingsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.ShaderBuildSettingsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.ShaderCompilationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.ShaderCompilationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.ShaderFoundryModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.ShaderFoundryModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SketchUpModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.SketchUpModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SpriteMaskModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SpriteShapeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SubstanceModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TerrainModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreFontEngineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextRenderingModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TilemapModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TreeModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.TreeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIAutomationModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIAutomationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIToolkitAuthoringModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIToolkitAuthoringModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UmbraModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.VFXModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.VectorGraphicsModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.VectorGraphicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.VideoModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.XRModule">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\Managed\UnityEngine\UnityEditor.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\PackageCache\com.unity.ext.nunit@d8c07649098d\net40\unity-custom\nunit.framework.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ReportGeneratorMerged">
+      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@19a841221620\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Hashing">
+      <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff\Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.Tests\System.Runtime.CompilerServices.Unsafe\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Types">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.AppContext.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Buffers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Console.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Data.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Memory.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Ping.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Requests.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Numerics.Vectors.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ObjectModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.DispatchProxy.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.ILGeneration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.Lightweight.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Claims.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Principal.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ValueTuple.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\mscorlib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Transactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Windows.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Path.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.001">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UI.Analytics">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.Analytics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PsdPlugin">
+      <HintPath>Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Tooling.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tooling.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Aseprite.Common">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Aseprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Psdimporter.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InputSystem.ForUI">
+      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Multiplayer.Center.Common">
+      <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.004">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.004.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Multiplayer.Center.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Collections.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.AIIntegration.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.AIIntegration.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Settings.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Settings.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

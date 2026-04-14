@@ -1,0 +1,19 @@
+// Gera a mensagem de agradecimento com o nome do jogo
+private string GenerateThanksMessage(string gameName)
+{
+    return $@"Agradecimentos Especiais
+
+Nós da Gamer Extremo queremos expressar nossa mais profunda gratidão a todos vocês que embarcaram conosco na incrível jornada de {gameName}. Este projeto foi construído com muito empenho, paixão e carinho, e sua participação foi fundamental para que ele se tornasse realidade.
+
+Agradecemos a cada jogador que acreditou no nosso trabalho e se desafiou neste universo único que criamos. O seu apoio, feedback e entusiasmo nos motivaram a criar uma experiência envolvente e memorável.
+
+Nosso sincero agradecimento também vai para todos que contribuíram direta ou indiretamente para o desenvolvimento de {gameName}. O talento e dedicação de cada colaborador foram essenciais para dar vida a este projeto.
+
+Esperamos que tenham se divertido, aprendido e sentido a magia que colocamos em cada detalhe do jogo.
+
+E lembrem-se: essa é apenas mais uma das aventuras que queremos compartilhar com vocês. Fiquem atentos para novos desafios e surpresas no futuro!
+
+Com muita gratidão,
+
+Equipe Gamer Extremo";
+}
