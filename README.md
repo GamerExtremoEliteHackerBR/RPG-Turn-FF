@@ -1,6 +1,6 @@
 # ⚔️ JRPG Battle System – Unity 3D
 
-Um sistema de batalha por turnos no estilo JRPG clássico, desenvolvido com Unity 3D.  
+Um sistema de batalha por turnos no estilo JRPG clássico, inspirado em Final Fantasy VII, desenvolvido com Unity 3D.  
 O projeto inclui exploração de mundo, encontros aleatórios, sistema de turnos com barra de progresso (ATB), magias, seleção de inimigos e gerenciamento de estado entre cenas.
 
 <!--![Gameplay Screenshot](https://raw.githubusercontent.com/GamerExtremoEliteHackerBR/RPG-Turn-FF/main/Screens/Captura%20de%20tela%202026-03-20%20000009-.png)-->
