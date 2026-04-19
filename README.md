@@ -58,7 +58,7 @@ O projeto inclui exploração de mundo, encontros aleatórios, sistema de turnos
 
 <!--[![Gameplay Preview](COLE_AQUI_O_LINK_RAW_DA_IMAGEM)](COLE_AQUI_O_LINK_DO_VIDEO_NO_YOUTUBE)-->
 
-[<img src="https://raw.githubusercontent.com/GamerExtremoEliteHackerBR/RPG-Turn-FF/main/Screens/Captura%20de%20tela%202026-03-20%20000009-.png" width="600" alt="Gameplay Screenshot">](https://vimeo.com/1182761267)]
+[<img src="https://raw.githubusercontent.com/GamerExtremoEliteHackerBR/RPG-Turn-FF/main/Screens/Captura%20de%20tela%202026-03-20%20000009-.png" width="600" alt="Gameplay Screenshot">](https://vimeo.com/1182761267)
 
 
 *Clique na imagem para assistir ao vídeo de gameplay*
